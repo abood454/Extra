@@ -1,0 +1,56 @@
+.Background {
+    background-color: linear-gradient(150deg, orange 50%, blue 50%);
+}
+
+.center-children {
+    text-align: center;
+}
+
+.FlexBOX {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: 50%;
+    border: 1px solid black;
+    flex-wrap: wrap;
+    max-width: 1000px;
+}
+
+.FlexBOX1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    margin-top: 15%;
+}
+
+ul {
+    list-style: none;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    align-content: center;
+}
+
+li {
+    padding: 10px;
+    width: 100%;
+    box-shadow: 0 0 12px crimson;
+    border-radius: 30px;
+    padding: 0;
+    margin-bottom: 5px;
+}
+
+ul button {}
+
+#instraction {
+    background-color: cyan;
+    width: 600px;
+    height: 600px;
+}
+
+input {
+    border: 5px solid darkcyan;
+}
